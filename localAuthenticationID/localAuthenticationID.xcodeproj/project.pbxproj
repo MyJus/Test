@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B04841E220C4F99500B467C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B04841E120C4F99500B467C9 /* AppDelegate.m */; };
+		B04841E520C4F99500B467C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B04841E420C4F99500B467C9 /* ViewController.m */; };
+		B04841E820C4F99500B467C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B04841E620C4F99500B467C9 /* Main.storyboard */; };
+		B04841EA20C4F99500B467C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B04841E920C4F99500B467C9 /* Assets.xcassets */; };
+		B04841ED20C4F99500B467C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B04841EB20C4F99500B467C9 /* LaunchScreen.storyboard */; };
+		B04841F020C4F99500B467C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B04841EF20C4F99500B467C9 /* main.m */; };
+		B04841FA20C4F99500B467C9 /* localAuthenticationIDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B04841F920C4F99500B467C9 /* localAuthenticationIDTests.m */; };
+		B048420520C4F99500B467C9 /* localAuthenticationIDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B048420420C4F99500B467C9 /* localAuthenticationIDUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B04841F620C4F99500B467C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B04841D520C4F99500B467C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B04841DC20C4F99500B467C9;
+			remoteInfo = localAuthenticationID;
+		};
+		B048420120C4F99500B467C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B04841D520C4F99500B467C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B04841DC20C4F99500B467C9;
+			remoteInfo = localAuthenticationID;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B04841DD20C4F99500B467C9 /* localAuthenticationID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = localAuthenticationID.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04841E020C4F99500B467C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B04841E120C4F99500B467C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B04841E320C4F99500B467C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B04841E420C4F99500B467C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B04841E720C4F99500B467C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B04841E920C4F99500B467C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B04841EC20C4F99500B467C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B04841EE20C4F99500B467C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B04841EF20C4F99500B467C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B04841F520C4F99500B467C9 /* localAuthenticationIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = localAuthenticationIDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04841F920C4F99500B467C9 /* localAuthenticationIDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = localAuthenticationIDTests.m; sourceTree = "<group>"; };
+		B04841FB20C4F99500B467C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B048420020C4F99500B467C9 /* localAuthenticationIDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = localAuthenticationIDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B048420420C4F99500B467C9 /* localAuthenticationIDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = localAuthenticationIDUITests.m; sourceTree = "<group>"; };
+		B048420620C4F99500B467C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B04841DA20C4F99500B467C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04841F220C4F99500B467C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04841FD20C4F99500B467C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B04841D420C4F99500B467C9 = {
+			isa = PBXGroup;
+			children = (
+				B04841DF20C4F99500B467C9 /* localAuthenticationID */,
+				B04841F820C4F99500B467C9 /* localAuthenticationIDTests */,
+				B048420320C4F99500B467C9 /* localAuthenticationIDUITests */,
+				B04841DE20C4F99500B467C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B04841DE20C4F99500B467C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B04841DD20C4F99500B467C9 /* localAuthenticationID.app */,
+				B04841F520C4F99500B467C9 /* localAuthenticationIDTests.xctest */,
+				B048420020C4F99500B467C9 /* localAuthenticationIDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B04841DF20C4F99500B467C9 /* localAuthenticationID */ = {
+			isa = PBXGroup;
+			children = (
+				B04841E020C4F99500B467C9 /* AppDelegate.h */,
+				B04841E120C4F99500B467C9 /* AppDelegate.m */,
+				B04841E320C4F99500B467C9 /* ViewController.h */,
+				B04841E420C4F99500B467C9 /* ViewController.m */,
+				B04841E620C4F99500B467C9 /* Main.storyboard */,
+				B04841E920C4F99500B467C9 /* Assets.xcassets */,
+				B04841EB20C4F99500B467C9 /* LaunchScreen.storyboard */,
+				B04841EE20C4F99500B467C9 /* Info.plist */,
+				B04841EF20C4F99500B467C9 /* main.m */,
+			);
+			path = localAuthenticationID;
+			sourceTree = "<group>";
+		};
+		B04841F820C4F99500B467C9 /* localAuthenticationIDTests */ = {
+			isa = PBXGroup;
+			children = (
+				B04841F920C4F99500B467C9 /* localAuthenticationIDTests.m */,
+				B04841FB20C4F99500B467C9 /* Info.plist */,
+			);
+			path = localAuthenticationIDTests;
+			sourceTree = "<group>";
+		};
+		B048420320C4F99500B467C9 /* localAuthenticationIDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B048420420C4F99500B467C9 /* localAuthenticationIDUITests.m */,
+				B048420620C4F99500B467C9 /* Info.plist */,
+			);
+			path = localAuthenticationIDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B04841DC20C4F99500B467C9 /* localAuthenticationID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B048420920C4F99500B467C9 /* Build configuration list for PBXNativeTarget "localAuthenticationID" */;
+			buildPhases = (
+				B04841D920C4F99500B467C9 /* Sources */,
+				B04841DA20C4F99500B467C9 /* Frameworks */,
+				B04841DB20C4F99500B467C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = localAuthenticationID;
+			productName = localAuthenticationID;
+			productReference = B04841DD20C4F99500B467C9 /* localAuthenticationID.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B04841F420C4F99500B467C9 /* localAuthenticationIDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B048420C20C4F99500B467C9 /* Build configuration list for PBXNativeTarget "localAuthenticationIDTests" */;
+			buildPhases = (
+				B04841F120C4F99500B467C9 /* Sources */,
+				B04841F220C4F99500B467C9 /* Frameworks */,
+				B04841F320C4F99500B467C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B04841F720C4F99500B467C9 /* PBXTargetDependency */,
+			);
+			name = localAuthenticationIDTests;
+			productName = localAuthenticationIDTests;
+			productReference = B04841F520C4F99500B467C9 /* localAuthenticationIDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B04841FF20C4F99500B467C9 /* localAuthenticationIDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B048420F20C4F99500B467C9 /* Build configuration list for PBXNativeTarget "localAuthenticationIDUITests" */;
+			buildPhases = (
+				B04841FC20C4F99500B467C9 /* Sources */,
+				B04841FD20C4F99500B467C9 /* Frameworks */,
+				B04841FE20C4F99500B467C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B048420220C4F99500B467C9 /* PBXTargetDependency */,
+			);
+			name = localAuthenticationIDUITests;
+			productName = localAuthenticationIDUITests;
+			productReference = B048420020C4F99500B467C9 /* localAuthenticationIDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B04841D520C4F99500B467C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = peony;
+				TargetAttributes = {
+					B04841DC20C4F99500B467C9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B04841F420C4F99500B467C9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B04841DC20C4F99500B467C9;
+					};
+					B04841FF20C4F99500B467C9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B04841DC20C4F99500B467C9;
+					};
+				};
+			};
+			buildConfigurationList = B04841D820C4F99500B467C9 /* Build configuration list for PBXProject "localAuthenticationID" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B04841D420C4F99500B467C9;
+			productRefGroup = B04841DE20C4F99500B467C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B04841DC20C4F99500B467C9 /* localAuthenticationID */,
+				B04841F420C4F99500B467C9 /* localAuthenticationIDTests */,
+				B04841FF20C4F99500B467C9 /* localAuthenticationIDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B04841DB20C4F99500B467C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04841ED20C4F99500B467C9 /* LaunchScreen.storyboard in Resources */,
+				B04841EA20C4F99500B467C9 /* Assets.xcassets in Resources */,
+				B04841E820C4F99500B467C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04841F320C4F99500B467C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04841FE20C4F99500B467C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B04841D920C4F99500B467C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04841E520C4F99500B467C9 /* ViewController.m in Sources */,
+				B04841F020C4F99500B467C9 /* main.m in Sources */,
+				B04841E220C4F99500B467C9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04841F120C4F99500B467C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04841FA20C4F99500B467C9 /* localAuthenticationIDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04841FC20C4F99500B467C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B048420520C4F99500B467C9 /* localAuthenticationIDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B04841F720C4F99500B467C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B04841DC20C4F99500B467C9 /* localAuthenticationID */;
+			targetProxy = B04841F620C4F99500B467C9 /* PBXContainerItemProxy */;
+		};
+		B048420220C4F99500B467C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B04841DC20C4F99500B467C9 /* localAuthenticationID */;
+			targetProxy = B048420120C4F99500B467C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B04841E620C4F99500B467C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B04841E720C4F99500B467C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B04841EB20C4F99500B467C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B04841EC20C4F99500B467C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B048420720C4F99500B467C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B048420820C4F99500B467C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B048420A20C4F99500B467C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2J8278RSN3;
+				INFOPLIST_FILE = localAuthenticationID/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = peony.localAuthenticationID;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B048420B20C4F99500B467C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2J8278RSN3;
+				INFOPLIST_FILE = localAuthenticationID/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = peony.localAuthenticationID;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B048420D20C4F99500B467C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = localAuthenticationIDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = peony.localAuthenticationIDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/localAuthenticationID.app/localAuthenticationID";
+			};
+			name = Debug;
+		};
+		B048420E20C4F99500B467C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = localAuthenticationIDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = peony.localAuthenticationIDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/localAuthenticationID.app/localAuthenticationID";
+			};
+			name = Release;
+		};
+		B048421020C4F99500B467C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = localAuthenticationIDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = peony.localAuthenticationIDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = localAuthenticationID;
+			};
+			name = Debug;
+		};
+		B048421120C4F99500B467C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = localAuthenticationIDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = peony.localAuthenticationIDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = localAuthenticationID;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B04841D820C4F99500B467C9 /* Build configuration list for PBXProject "localAuthenticationID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B048420720C4F99500B467C9 /* Debug */,
+				B048420820C4F99500B467C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B048420920C4F99500B467C9 /* Build configuration list for PBXNativeTarget "localAuthenticationID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B048420A20C4F99500B467C9 /* Debug */,
+				B048420B20C4F99500B467C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B048420C20C4F99500B467C9 /* Build configuration list for PBXNativeTarget "localAuthenticationIDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B048420D20C4F99500B467C9 /* Debug */,
+				B048420E20C4F99500B467C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B048420F20C4F99500B467C9 /* Build configuration list for PBXNativeTarget "localAuthenticationIDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B048421020C4F99500B467C9 /* Debug */,
+				B048421120C4F99500B467C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B04841D520C4F99500B467C9 /* Project object */;
+}
