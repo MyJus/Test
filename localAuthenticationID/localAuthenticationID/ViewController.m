@@ -27,7 +27,7 @@
 }
 - (void)beginAuthentication {
     //判断是否大于iOS 9.0
-#ifdef NSFoundationVersionNumber_iOS_9_0
+#ifdef NSFoundationVersionNumber_iOS_8_0
     //初始化上下文对象
     
     LAContext* context = [[LAContext alloc] init];
@@ -40,7 +40,7 @@
     
     context.localizedCancelTitle=@"取消";
     
-//    context.maxBiometryFailures = [NSNumber numberWithInt:5];
+    //    context.maxBiometryFailures = [NSNumber numberWithInt:5];
     
     //错误对象
     
@@ -181,7 +181,8 @@
         
     }];
 }
-- (void)startPassword:(LAContext *)context {
+- (void)startPassword:(LAContext *)context {//调起系统密码
+#ifdef NSFoundationVersionNumber_iOS_9_0
     NSString* result = @"需要验证您的touch ID";
     if (context.biometryType == LABiometryTypeFaceID) {
         result = @"需要验证您的face ID";
@@ -199,10 +200,14 @@
         }
         
     }];
+#else
+    //不支持，展示支付密码
+    [self showPassword];
+#endif
 }
 - (void)showPassword {
     dispatch_async(dispatch_get_main_queue(), ^{
-                [[[UIAlertView alloc] initWithTitle:@"" message:@"展示的是支付密码" delegate:nil cancelButtonTitle:@"done" otherButtonTitles:nil, nil] show];
+        [[[UIAlertView alloc] initWithTitle:@"" message:@"展示的是支付密码" delegate:nil cancelButtonTitle:@"done" otherButtonTitles:nil, nil] show];
     });
 }
 - (void)showQuestion {
@@ -214,7 +219,7 @@
 - (void)showAlert:(NSString *)message {
     dispatch_async(dispatch_get_main_queue(), ^{
         [[[UIAlertView alloc] initWithTitle:@"" message:message delegate:nil cancelButtonTitle:@"done" otherButtonTitles:nil, nil] show];
-//        NSLog(@"%@",message);
+        //        NSLog(@"%@",message);
     });
 }
 - (void)didReceiveMemoryWarning {
